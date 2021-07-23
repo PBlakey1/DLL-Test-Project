@@ -5,13 +5,12 @@
 #include "framework.h"
 #include "helloWorldLib.h"
 #include "stdio.h"
-namespace helloWorld
+
+extern "C"
 {
-	extern "C"
+	void __declspec(dllexport) Hello::introduce(void)
 	{
-		void Hello::introduce(void)
-		{
-			printf("Hello world");
-		}
+		printf("Hello world\n");
 	}
 }
+

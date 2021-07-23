@@ -1,3 +1,0 @@
-﻿  dLLTest.cpp
-dLLTest.obj : error LNK2019: unresolved external symbol __imp_introduce_run referenced in function main
-C:\Users\phill\Source\Repos\helloworldlibrary\x64\Debug\dLLTest.exe : fatal error LNK1120: 1 unresolved externals

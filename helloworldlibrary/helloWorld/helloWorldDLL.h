@@ -18,7 +18,7 @@ extern "C"
 extern "C"
 {
 #endif
-HELLOWORLD_API char introduce_run(void);
+HELLOWORLD_API void introduce_run(void);
 #ifdef __cplusplus
 }
 #endif

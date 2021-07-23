@@ -160,8 +160,8 @@
     <ClCompile Include="HelloClient.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\helloworldlibrary\helloworldlibrary.vcxproj">
-      <Project>{85f3e7e9-db18-4e3d-89c7-627af1e50e1d}</Project>
+    <ProjectReference Include="..\helloWorld\helloWorld.vcxproj">
+      <Project>{f26eacb3-870c-4291-8d41-1c8ec14f558d}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
