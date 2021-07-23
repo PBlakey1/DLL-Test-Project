@@ -1,10 +1,8 @@
 #pragma once
 
-namespace helloWorld
-{
-	class Hello
+
+	class __declspec(dllexport) Hello
 	{
 	public:
 		static void introduce(void);
 	};
-}
